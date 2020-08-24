@@ -1,0 +1,70 @@
+.masthead {
+  display: flex;
+  justify-content: space-between;
+}
+
+.masthead .header-right {
+  text-align: right;
+}
+
+.masthead .nav-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.masthead .nav-list li {
+  display: inline-block;
+  margin-left: 5px;
+}
+
+main {
+  margin-top: 2em;
+}
+
+.post-list .post {
+  border-bottom: 1px solid var(--background);
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+}
+
+.post-cover {
+  display: block;
+  margin-bottom: 2em;
+  border-radius: 6px;
+}
+
+.post-title {
+  margin-top: 0;
+}
+
+.post-meta {
+  display: flex;
+}
+
+.post-meta > * {
+  display: block;
+  margin-right: 15px;
+}
+
+.post-meta > *::before {
+  content: "";
+  display: block;
+  float: left;
+  width: 16px;
+  height: 16px;
+  margin-top: 3px;
+  margin-right: 5px;
+}
+
+.post-date::before {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTE0LDE0SDdWMTZIMTRNMTksMTlINVY4SDE5TTE5LDNIMThWMUgxNlYzSDhWMUg2VjNINUMzLjg5LDMgMywzLjkgMyw1VjE5QTIsMiAwIDAsMCA1LDIxSDE5QTIsMiAwIDAsMCAyMSwxOVY1QTIsMiAwIDAsMCAxOSwzTTE3LDEwSDdWMTJIMTdWMTBaIiBmaWxsPSIjMzYzNjM2IiAvPjwvc3ZnPg==);
+}
+
+.post-author::before {
+  background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48IURPQ1RZUEUgc3ZnIFBVQkxJQyAiLS8vVzNDLy9EVEQgU1ZHIDEuMS8vRU4iICJodHRwOi8vd3d3LnczLm9yZy9HcmFwaGljcy9TVkcvMS4xL0RURC9zdmcxMS5kdGQiPjxzdmcgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIiB4bWxuczp4bGluaz0iaHR0cDovL3d3dy53My5vcmcvMTk5OS94bGluayIgdmVyc2lvbj0iMS4xIiB3aWR0aD0iMTYiIGhlaWdodD0iMTYiIHZpZXdCb3g9IjAgMCAyNCAyNCI+PHBhdGggZD0iTTEyLDRBNCw0IDAgMCwxIDE2LDhBNCw0IDAgMCwxIDEyLDEyQTQsNCAwIDAsMSA4LDhBNCw0IDAgMCwxIDEyLDRNMTIsMTRDMTYuNDIsMTQgMjAsMTUuNzkgMjAsMThWMjBINFYxOEM0LDE1Ljc5IDcuNTgsMTQgMTIsMTRaIiBmaWxsPSIjMzYzNjM2IiAvPjwvc3ZnPg==);
+}
+
+
+footer {
+  border: none;
+}
